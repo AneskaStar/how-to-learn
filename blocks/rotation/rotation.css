@@ -1,9 +1,18 @@
 @keyframes rotate {
-  from {
-    transform: rotate(-360deg);
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
 .header__square-pic-rotation{
   animation: rotate 20s linear infinite;
+  overflow: hidden;
+}
+
+.kaufman__triangle-rotation {
+  animation: rotate 40s linear infinite;
+  overflow: hidden;
 }

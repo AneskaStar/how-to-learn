@@ -1,6 +1,10 @@
 .video__iframe {
-  /* margin: 0 auto; */
+  column-gap: 20px;
   width: 515px;
   height: 316px;
+  border: none;
+  }
 
-}
+  iframe {
+    border: none;
+  }

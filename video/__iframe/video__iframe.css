@@ -1,0 +1,11 @@
+.video__iframe {
+  box-sizing: border-box;
+  column-gap: 20px;
+  width: 515px;
+  height: 316px;
+  border: none;
+  }
+
+  iframe {
+    border: none;
+  }
